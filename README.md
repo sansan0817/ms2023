@@ -61,6 +61,14 @@ Metrics Server can be installed either directly from YAML manifest or via the of
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 ```
 
+## Custom installation
+
+# Use the below scripts customise for Landmark projects 
+```shell
+git clone https://github.com/LandmakTechnology/metrics-server2023
+kubectl apply -f  metrics-server2023/metrics-server2023.yml
+```
+
 Installation instructions for previous releases can be found in [Metrics Server releases](https://github.com/kubernetes-sigs/metrics-server/releases).
 
 ### Compatibility Matrix
